@@ -2,11 +2,27 @@
 
 A demo project of a fictitious restaurant built in the Next.js framework using React, TypeScript, Redux Toolkit, JavaScript (ES6+), HTML5, CSS3, SQLite, and other modern web development technologies.
 
+Please note that this project includes a backend applicaiton that must be running for the menu items data to be accessible to the front-end applicaiton.
+
+## Back-End Application.
+
+First, run the development server:
+
+- In a terminal window, cd into the backend folder.
+- Run npm install
+- Run npm start
+
+Open [http://localhost:8080/menu-items](http://localhost:8080/menu-items) with your browser to see the menu items data stored within the SQLite database.
+
+## Front-End Application.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, open a seperate terminal window (2 are needed for running FE and BE applicaitons)
+
+Next, run the development server:
 
 ```bash
 npm run dev
